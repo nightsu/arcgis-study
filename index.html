@@ -4,16 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>ArcGIS JavaScript Tutorials: Create a JavaScript starter app</title>
-    <style>
-      html, body, #viewDiv {
-        padding: 0;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="http://localhost:8080/arcgis_js_api/library/4.11/esri/themes/light/main.css">
+    <script src="http://localhost:8080/arcgis_js_api/library/4.11/dojo/dojo.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <script type="text/JavaScript" src="js/buffer.js">
+        // require(["esri/Map","esri/views/MapView"],function(Map,MapView){
+        //     var map=new Map({
+        //         basemap:"topo-vector"
+        //     });
+        //     var view=new MapView({
+        //         container:"viewDiv",
+        //         map:map,
+        //         zoom:5,
+        //         center:[15,65]
+        //     });
+        // });
+    </script>
   </head>
   <body>
     <div id="viewDiv"></div>
+    <div id="div"></div>
   </body>
 </html>
